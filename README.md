@@ -35,3 +35,20 @@
   ```
   code --install-extension .\smooth-dark-focus-0.0.1.vsix
   ```
+
+<!--
+Color de fondo principal: 0e1111
+Color de fondo secundario: 1e1e1e
+Color de fondo terciario: 2a2a2a
+Color de fondo cuarto: 373737
+Color de fondo quinto: 505050
+Color de fondo sexto: 5c5c5c
+----
+Amarillo: FFCE39
+Narana: F09558
+Verde: 90C36E
+Azul: 67a3e9
+Morado: b266ff
+Rojo: ff0000
+- - - 
+-->
