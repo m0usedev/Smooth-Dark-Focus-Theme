@@ -1,0 +1,21 @@
+{
+  "name": "smooth-dark-focus",
+  "displayName": "Smooth Dark Focus",
+  "description": "Smooth Dark Focus Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Smooth Dark Focus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Smooth Dark Focus-color-theme.json"
+      }
+    ]
+  }
+}
