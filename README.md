@@ -1,16 +1,37 @@
-# smooth-dark-focus README
+# Smooth-Dark-Focus-Theme
 
-## Working with Markdown
+**Smooth-Dark-Focus-Theme** es un tema para vscode inspirado en **Smooth Dark**. La idea es mantener los colores de código del tema pero cambiando el tema de vscode a uno completamente negro.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## 🛠️ Pasos de instalación:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+1. Descargar el repositorio de **GitHub**.
 
-## For more information
+2. Instala **Node.js** desde su pagina en la versión **LTS**: **nodejs.org**
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+3. Abrir el proyecto en **VS Code**.
 
-**Enjoy!**
+4. Abrir el terminar y ejecutar:
+
+```
+npm install
+```
+
+5. Después nos movemos en el terminal a la carpeta del tema:
+
+```
+cd .\smooth-dark-focus\
+```
+
+6. Ejecutamos el siguiente comando que nos creara la extensión del tema para instalarlo en vscode:
+
+```
+npx vsce package
+```
+
+Le decimos a todo `y`.
+
+7. Se nos creara en `.\smooth-dark-focus\` el archivo `smooth-dark-focus-0.0.1.vsix` ahora instalamos con el siguiente comando:
+
+```
+code --install-extension .\smooth-dark-focus\smooth-dark-focus-0.0.1.vsix
+```
