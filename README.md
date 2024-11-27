@@ -1,5 +1,9 @@
 # Smooth-Dark-Focus-Theme
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5769adbf-1d03-4c9c-ab19-f5144813a6d3" width="600" height="360">
+</p>
+
 **Smooth-Dark-Focus-Theme** es un tema para vscode inspirado en **Smooth Dark**. La idea es mantener los colores de código del tema pero cambiando el tema de vscode a uno completamente negro.
 
 ## 🛠️ Pasos de instalación:
