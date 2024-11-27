@@ -11,27 +11,27 @@
 3. Abrir el proyecto en **VS Code**.
 
 4. Abrir el terminar y ejecutar:
-
-```
-npm install
-```
+  
+  ```
+  npm install
+  ```
 
 5. Después nos movemos en el terminal a la carpeta del tema:
-
-```
-cd .\smooth-dark-focus\
-```
+  
+  ```
+  cd .\smooth-dark-focus\
+  ```
 
 6. Ejecutamos el siguiente comando que nos creara la extensión del tema para instalarlo en vscode:
+  
+  ```
+  npx vsce package
+  ```
 
-```
-npx vsce package
-```
+  Le decimos a todo `y`.
 
-Le decimos a todo `y`.
-
-7. Se nos creara en `.\smooth-dark-focus\` el archivo `smooth-dark-focus-0.0.1.vsix` ahora instalamos con el siguiente comando:
-
-```
-code --install-extension .\smooth-dark-focus\smooth-dark-focus-0.0.1.vsix
-```
+7. Se nos creara en `.\smooth-dark-focus\` el archivo `smooth-dark-focus-0.0.1.vsix` ahora instalamos como extension con el siguiente comando:
+  
+  ```
+  code --install-extension .\smooth-dark-focus-0.0.1.vsix
+  ```
